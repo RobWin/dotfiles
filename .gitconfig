@@ -3,3 +3,4 @@
 	email = rwinkler@telekom.de
 [core]
 	autocrlf = input
+	excludesfile = ~/.gitignore
