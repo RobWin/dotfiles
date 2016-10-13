@@ -1,0 +1,5 @@
+[user]
+	name = Robert Winkler
+	email = rwinkler@telekom.de
+[core]
+	autocrlf = input
