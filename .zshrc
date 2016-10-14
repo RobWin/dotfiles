@@ -30,7 +30,3 @@ fi
 
 # Source plugins and add commands to $PATH
 zplug load
-
-# User configuration
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
