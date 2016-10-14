@@ -1,8 +1,9 @@
-My dotfiles for macOS managed with Yet Another Dotfiles Manager https://thelocehiliosan.github.io/yadm/
+My dotfiles for macOS managed with [Yet Another Dotfiles Manager (YADM)](https://thelocehiliosan.github.io/yadm/). 
+My zsh plugins are managed with [Zplug] (https://github.com/zplug/zplug)
 
-Using Homebrew (OS X)
+## On MacOS
 
-Install git, zsh, plugin manager for zsh (zplug) and a Yet Another Dotfiles Manager (YADM) using brew.
+Install git, zsh, zplug and yadm using brew:
 
 ```
 $ brew install git zsh zplug yadm
@@ -18,4 +19,18 @@ Install zsh plugins using zplug.
 
 ```
 $ zplug install
+```
+
+## On Linux
+
+Install yadm:
+
+```
+curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && chmod a+x /usr/local/bin/yadm
+```
+
+Install zplug:
+
+```
+curl -sL zplug.sh/installer | zsh
 ```
