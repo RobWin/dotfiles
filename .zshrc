@@ -1,6 +1,8 @@
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
+DEFAULT_USER="robwin"
+
 # Github plugins
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
 zplug "plugins/gradle",   from:oh-my-zsh
@@ -10,7 +12,7 @@ zplug "plugins/brew",   from:oh-my-zsh
 zplug "plugins/extract",   from:oh-my-zsh
 zplug "plugins/npm",   from:oh-my-zsh
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
-zplug "themes/robbyrussell", from:oh-my-zsh
+zplug "themes/agnoster", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions", nice:8
 zplug "zsh-users/zsh-history-substring-search", nice:9
 zplug "zsh-users/zsh-syntax-highlighting", nice:10
