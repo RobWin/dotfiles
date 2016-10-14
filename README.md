@@ -34,3 +34,9 @@ Install zplug:
 ```
 curl -sL zplug.sh/installer | zsh
 ```
+
+You might have to change `ZPLUG_HOME` in  `.zshrc` to 
+
+```
+export ZPLUG_HOME=~/.zplug
+```
