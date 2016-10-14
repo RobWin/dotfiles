@@ -4,6 +4,7 @@ source $ZPLUG_HOME/init.zsh
 DEFAULT_USER="robwin"
 
 # Github plugins
+zplug "zplug/zplug"
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
 zplug "plugins/gradle",   from:oh-my-zsh
 zplug "plugins/docker",   from:oh-my-zsh
