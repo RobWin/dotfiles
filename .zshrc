@@ -7,6 +7,8 @@ zplug "plugins/gradle",   from:oh-my-zsh
 zplug "plugins/docker",   from:oh-my-zsh
 zplug "plugins/docker-compose",   from:oh-my-zsh
 zplug "plugins/brew",   from:oh-my-zsh
+zplug "plugins/extract",   from:oh-my-zsh
+zplug "plugins/npm",   from:oh-my-zsh
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
 zplug "themes/robbyrussell", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions", nice:8
