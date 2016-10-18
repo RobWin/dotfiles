@@ -46,11 +46,10 @@ Clone repository
 $ yadm clone https://github.com/RobWin/dotfiles.git
 ```
 
-## Customize .zshrc
+## Use Install script
 
-You have to set `ZPLUG_HOME` in  `.zshrc` to 
+You can also just run the Install script:
 
 ```
-export ZPLUG_HOME=~/.zplug
+curl -sL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
 ```
-
