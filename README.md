@@ -1,6 +1,16 @@
 My dotfiles for macOS managed with [Yet Another Dotfiles Manager (YADM)](https://thelocehiliosan.github.io/yadm/). 
 My zsh plugins are managed with [Zplug] (https://github.com/zplug/zplug)
 
+I use iTerm2 + Oh My Tsh Agnoster Theme + Tango Dark color scheme + Meslo Powerline font (OS X / macOS)
+
+## Install Meslo Powerline Font
+
+[Meslo](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf). Click "view raw" to download the font.
+Open the downloaded font and press "Install Font".
+
+Set this font in iTerm2 (12px) (iTerm -> Preferences -> Profiles -> Text -> Change Font).
+
+Restart iTerm2 for all changes to take effect.
 
 You have to set `ZPLUG_HOME` in  `.zshrc` to 
 
