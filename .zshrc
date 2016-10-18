@@ -1,7 +1,7 @@
 export ZPLUG_HOME=~/.zplug
 source $ZPLUG_HOME/init.zsh
 
-DEFAULT_USER="robwin"
+DEFAULT_USER=${USER}
 
 # Github plugins
 zplug "zplug/zplug"
