@@ -28,6 +28,8 @@ $ yadm clone https://github.com/RobWin/dotfiles.git
 
 ## On Linux
 
+Install git, zsh using a package manager of your choice.
+
 Install yadm:
 
 ```
@@ -46,11 +48,12 @@ Clone repository
 $ yadm clone https://github.com/RobWin/dotfiles.git
 ```
 
-## Customize .zshrc
+## Use Install script
 
-You have to set `ZPLUG_HOME` in  `.zshrc` to 
+Install git, zsh using a package manager of your choice.
+
+Then run the script to install yadm, zplug and clone the repository:
 
 ```
-export ZPLUG_HOME=~/.zplug
+curl -sL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
 ```
-
