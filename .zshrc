@@ -1,4 +1,5 @@
 export ZPLUG_HOME=~/.zplug
+export ZPLUG_ROOT=~/.zplug
 source $ZPLUG_HOME/init.zsh
 
 DEFAULT_USER=${USER}
