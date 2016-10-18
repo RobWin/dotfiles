@@ -12,6 +12,8 @@ Set this font in iTerm2 (12px) (iTerm -> Preferences -> Profiles -> Text -> Chan
 
 Restart iTerm2 for all changes to take effect.
 
+## Customize .zshrc
+
 By default, the prompt will now show “username@hostname” in the prompt. You can set DEFAULT_USER in ~/.zshrc to your regular username to hide the “username@hostname” info when you’re logged in as yourself on your local machine. 
 
 You have to set `ZPLUG_HOME` in  `.zshrc` to 
