@@ -1,6 +1,13 @@
 My dotfiles for macOS managed with [Yet Another Dotfiles Manager (YADM)](https://thelocehiliosan.github.io/yadm/). 
 My zsh plugins are managed with [Zplug] (https://github.com/zplug/zplug)
 
+
+You have to set `ZPLUG_HOME` in  `.zshrc` to 
+
+```
+export ZPLUG_HOME=~/.zplug
+```
+
 ## On MacOS
 
 Install git, zsh, zplug and yadm using brew:
@@ -13,12 +20,6 @@ Clone repository
 
 ```
 $ yadm clone https://github.com/RobWin/dotfiles.git
-```
-
-Install zsh plugins using zplug.
-
-```
-$ zplug install
 ```
 
 ## On Linux
@@ -35,8 +36,9 @@ Install zplug:
 curl -sL zplug.sh/installer | zsh
 ```
 
-You have to change `ZPLUG_HOME` in  `.zshrc` to 
+Clone repository
 
 ```
-export ZPLUG_HOME=~/.zplug
+$ yadm clone https://github.com/RobWin/dotfiles.git
 ```
+
