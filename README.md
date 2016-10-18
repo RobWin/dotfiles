@@ -55,5 +55,5 @@ Install git, zsh using a package manager of your choice.
 Then run the script to install yadm, zplug and clone the repository:
 
 ```
-curl -sL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
+curl -fsL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
 ```
