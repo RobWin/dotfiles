@@ -13,10 +13,10 @@ zplug "themes/agnoster", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions", nice:8
 zplug "zsh-users/zsh-history-substring-search", nice:9
 zplug "zsh-users/zsh-syntax-highlighting", nice:10
-if [ "$(uname)" == "Darwin" ]; then
+if [[ "$(uname)" == "Darwin" ]]; then
   zplug "plugins/brew",   from:oh-my-zsh
 fi
-if [ "$(USER)" == "robwin" ]; then
+if [[ "$USER" == "$DEFAULT_USER" ]]; then
   zplug "plugins/npm",   from:oh-my-zsh
   zplug "plugins/gradle",   from:oh-my-zsh
   zplug "plugins/docker",   from:oh-my-zsh
