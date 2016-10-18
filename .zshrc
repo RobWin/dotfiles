@@ -7,6 +7,10 @@ DEFAULT_USER="robwin"
 # Github plugins
 zplug "zplug/zplug"
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
+zplug "plugins/docker",   from:oh-my-zsh, if:"which docker"
+zplug "~/.docker-alias.zsh", from:local, if:"which docker"
+zplug "plugins/docker-compose",   from:oh-my-zsh, if:"which docker-compose"
+zplug "plugins/npm",   from:oh-my-zsh, if:"which npm"
 zplug "plugins/extract",   from:oh-my-zsh
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
 zplug "themes/agnoster", from:oh-my-zsh
@@ -17,12 +21,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
   zplug "plugins/brew",   from:oh-my-zsh
 fi
 if [[ "$USER" == "$DEFAULT_USER" ]]; then
-  zplug "plugins/npm",   from:oh-my-zsh
   zplug "plugins/gradle",   from:oh-my-zsh
-  zplug "plugins/docker",   from:oh-my-zsh
-  zplug "plugins/docker-compose",   from:oh-my-zsh
-  # Local plugins
-  zplug "~/.docker-alias.zsh", from:local
 fi
 zplug "~/.iterm2_shell_integration.zsh", from:local
 
