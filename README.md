@@ -5,7 +5,7 @@ I use iTerm2 + Oh My Zsh Agnoster Theme + Tango Dark color scheme + Meslo Powerl
 
 ## Install Meslo Powerline Font
 
-[Meslo](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf). Click "view raw" to download the font.
+[Meslo Powerline Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf). Click "view raw" to download the font.
 Open the downloaded font and press "Install Font".
 
 Set this font in iTerm2 (12px) (iTerm -> Preferences -> Profiles -> Text -> Change Font).
