@@ -28,6 +28,8 @@ $ yadm clone https://github.com/RobWin/dotfiles.git
 
 ## On Linux
 
+Install git, zsh using a package manager of your choice.
+
 Install yadm:
 
 ```
@@ -48,7 +50,9 @@ $ yadm clone https://github.com/RobWin/dotfiles.git
 
 ## Use Install script
 
-You can also just run the Install script:
+Install git, zsh using a package manager of your choice.
+
+Then run the Install script:
 
 ```
 curl -sL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
