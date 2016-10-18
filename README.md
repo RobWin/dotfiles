@@ -57,3 +57,17 @@ Then run the script to install yadm, zplug and clone the repository:
 ```
 curl -fsL https://raw.githubusercontent.com/RobWin/dotfiles/master/install.zsh | zsh
 ```
+
+## 
+
+Test that zsh starts properly and installs the plugins:
+
+```
+zsh
+```
+
+Then change your shell to zsh:
+
+```
+chsh -s /bin/zsh $USER
+```
