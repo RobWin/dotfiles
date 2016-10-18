@@ -1,7 +1,7 @@
 My dotfiles for macOS managed with [Yet Another Dotfiles Manager (YADM)](https://thelocehiliosan.github.io/yadm/). 
 My zsh plugins are managed with [Zplug] (https://github.com/zplug/zplug)
 
-I use iTerm2 + Oh My Tsh Agnoster Theme + Tango Dark color scheme + Meslo Powerline font (OS X / macOS)
+I use iTerm2 + Oh My Zsh Agnoster Theme + Tango Dark color scheme + Meslo Powerline font (OS X / macOS)
 
 ## Install Meslo Powerline Font
 
@@ -11,6 +11,8 @@ Open the downloaded font and press "Install Font".
 Set this font in iTerm2 (12px) (iTerm -> Preferences -> Profiles -> Text -> Change Font).
 
 Restart iTerm2 for all changes to take effect.
+
+By default, the prompt will now show “username@hostname” in the prompt. You can set DEFAULT_USER in ~/.zshrc to your regular username to hide the “username@hostname” info when you’re logged in as yourself on your local machine. 
 
 You have to set `ZPLUG_HOME` in  `.zshrc` to 
 
