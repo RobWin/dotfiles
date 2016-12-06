@@ -4,3 +4,6 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore
+[alias]
+	update = pull --rebase origin master
+	back = reset HEAD~

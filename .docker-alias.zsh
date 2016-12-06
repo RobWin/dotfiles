@@ -32,6 +32,9 @@ dstop() { docker stop $(docker ps -a -q); }
 # Remove all containers
 drm() { docker rm $(docker ps -a -q); }
 
+# Remove all containers
+drmid() { docker rmi $(docker images -f "dangling=true" -q); }
+
 # Stop and Remove all containers
 alias drmf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
