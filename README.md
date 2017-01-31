@@ -48,6 +48,12 @@ Clone repository
 $ yadm clone https://github.com/RobWin/dotfiles.git
 ```
 
+## On Windows
+
+Install [Babun](https://github.com/babun/babun)
+
+Run install script
+
 ## Use Install script
 
 Install git, zsh using a package manager of your choice.
